@@ -80,3 +80,88 @@ print(students[0])
 #print(students[50]) # hata aldı ve kapandı
 print("Merhaba")
 #
+
+# reference type vs value type
+print("**** 22.02.2025 *****")
+a=1
+b=a
+b += 10
+print(a)
+print(b)
+
+list1 = ["Ahmet","Azra","Emine"]
+list2 = list1
+
+list2.append("Fatma")
+
+print(list1)
+print(list2)
+
+# reference-value type
+#immutable-mutable
+
+# döngüler - iterasyon (iteration)
+for i in range(5): #indentation,indent #for X adet satırla çalışabilir
+    print(i)
+    print("Merhaba")
+print("For bitti")
+
+print("****")
+for i in range(5,10):
+    print(i)
+
+for i in range(5,50,2):
+    print(i)
+
+# { }
+
+print("****")
+
+#dongüyü kırmak => manual bitirmek
+for i in range(0, 100):
+    if i == 50:
+        break #bu iterasyonda bu satırdan aşağısını çalıştırmadan döngüyü bitir.
+    print(i)
+print("***")
+for i in range(0,100):
+    if i == 50:
+        continue # bu iterasyonda bu satırdan aşağısını çalıştırmadan sonraki iterasyona geç
+    print(i)
+# iteration,index
+for student in list1:
+    if student == "Emine":
+        continue
+    print(student)
+
+# while
+# koşullarla çalışır
+# sonsuz döngü tehlikesi
+
+
+i=5
+while i<=10:
+    i += 1
+    if i == 6:
+        continue
+    print(i)
+
+    
+#while True: #infinite loop
+    #print("While...")
+
+
+# şart-koşul blokları
+age=18
+# kural1=> tek çıktı!!
+# kural2=> yukarıdan aşağıya ilk doğru koşul
+if age >= 18:
+    print("Giriş yapabilirsiniz")
+elif age == 18:
+    print("Ay kontrolü yapılıyor...")
+else:
+    print("Giriş yapamazsınız..")
+
+#
+
+#
+
