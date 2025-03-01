@@ -56,3 +56,5 @@ selamla("Halit")
 # oop, modules, pip -> basic python # 1mart
 # python for AI -> Pandas,Numpy,Matplotlib # 1marttan sonraki hafta
 # vscode -> jupyter notebook
+
+
