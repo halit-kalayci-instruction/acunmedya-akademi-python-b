@@ -30,3 +30,14 @@ car1.increase_speed(10)
 car2 = Car("Hyundai",2010)
 car2.start()
 # Constructor (YAPICI METHOD)
+
+# Kalıtım (Inheritance)
+
+class Truck():
+    def __init__(self,model):
+        self.model = model
+
+    def start(self):
+        print(f"{self.model} başlatılıyor..")
+
+
